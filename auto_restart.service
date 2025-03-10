@@ -1,0 +1,15 @@
+[Unit]
+Description=My Script Auto-Restart
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/important_script.sh
+Restart=always
+RestartSec=5s
+RuntimeMaxSec=600
+KillMode=process
+
+
+[Install]
+WantedBy=multi-user.target
+
