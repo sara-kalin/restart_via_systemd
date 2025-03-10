@@ -1,5 +1,7 @@
 Here is an example **README.md** file for the project using your `auto_restart.service` systemd unit:
 
+![image](https://github.com/user-attachments/assets/d4a44ceb-d620-4fd2-a021-7b5f52774b42)
+
 ---
 
 # **Auto-Restart Service**
