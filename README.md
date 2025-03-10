@@ -18,7 +18,7 @@ Here is an example **README.md** file for the project using your `auto_restart.s
 
 ## **Installation**
 
-1. **Create the systemd service unit file**  
+1️⃣ **Create the systemd service unit file**  
    Create a new systemd unit file:
    ```bash
    sudo nano /etc/systemd/system/auto_restart.service
@@ -40,19 +40,19 @@ Here is an example **README.md** file for the project using your `auto_restart.s
    WantedBy=multi-user.target
    ```
 
-2. **Make the script executable**  
+2️⃣ **Make the script executable**  
    Ensure that the script `/usr/local/bin/important_script.sh` is executable:
    ```bash
    sudo chmod +x /usr/local/bin/important_script.sh
    ```
 
-3. **Reload systemd**  
+3️⃣ **Reload systemd**  
    Reload the systemd daemon to pick up the new unit file:
    ```bash
    sudo systemctl daemon-reload
    ```
 
-4. **Enable and start the service**  
+4️⃣ **Enable and start the service**  
    Enable the service to start on boot:
    ```bash
    sudo systemctl enable auto_restart.service
@@ -62,7 +62,7 @@ Here is an example **README.md** file for the project using your `auto_restart.s
    sudo systemctl start auto_restart.service
    ```
 
-5. **Verify the service status**  
+5️⃣ **Verify the service status**  
    To check the status of the service, use:
    ```bash
    systemctl status auto_restart.service
